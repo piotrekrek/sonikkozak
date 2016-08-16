@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Pracownia projektowania wnętrz</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+	<header class="container">
+		<div class="row">
+			<div class="col-sm-4">
+				<a href="http://www.sonikkozak.pl"><img src="logo.png"></a>
+			</div>			
+			<nav class="col-sm-8">
+				<a href="http://www.sonikkozak.pl/portfolio.html">Projekty</a>
+				<a href="http://www.sonikkozak.pl/services.html">Oferta</a>
+				<a href="http://www.sonikkozak.pl/about.html">O nas</a>
+				<a href="http://www.sonikkozak.pl/contact.html">Kontakt</a>
+			</nav>
+		</div>
+	</header>
+	<section class="vertical-align">
+		<div class="container">
+			<div class="col-sm-6">
+				<h2 id="maincontact">Pomyśl o domu ze snów. <br>My zajmiemy się resztą!</h2>
+				<p id="contact">Chętnie odpowiemy na Państwa pytania.
+					<ol id="contactprocess">
+						<li>Umówimy się na spotkanie, aby lepiej poznać Państwa gust i potrzeby</li>
+						<li>Wykonujemy darmową wstępną wycenę projektu</li>		
+					</ol>					
+				</p>
+				<h4 id="invite">Zapraszam do współpracy.</h4>
+				<div class="row vertical-align">
+				<div class="col-sm-6">
+					<img id="lauracontact" src="laura_kozaksmall.png">
+				</div>
+				<div class="col-sm-6">
+					<p id="contactdata">
+						<b>Laura Kozak</b> <br>
+						<i>współwłaściciel</i> <br>
+						<b>+48 882 800 293</b> <br>
+						<a id="emailcontact" href="mailto:wnetrza@sonikkozak.pl">wnetrza@sonikkozak.pl</a> 
+					</p>
+				</div>
+				</div>				
+			</div>
+		<div id="contactform" class="container">
+			<div class="col-sm-6">
+				<form id="contact-from" method="post" action="contact.php" role="form">	
+					<div class="row">					
+						<div class="messages"></div>
+						<div class="controls">
+							<div class="col-sm-6">
+								<div class="form-group">
+									<label for="form_name">Imię *</label>
+									<input id="form_name" type="text" name="name" class="form-control" placeholder="Podaj nam swoje imię" required="required" data-error="Chcemy Cię lepiej poznać!">
+									<div class="help-block with-errors"></div>
+								</div>	
+							</div>
+							<div class="col-sm-6">
+								<label for="form_lastname">Nazwisko *</label>
+								<input id="form_lastname" type="text" name="lastname" class="form-control" placeholder="Teraz jeszcze nazwisko" required="required" data-error="Ja jestem Laura Kozak. A Ty?">
+								<div class="help-block with-errors"></div>
+							</div>
+						</div>					
+					</div>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="form-group">
+								<label for="from_email">Email *</label>
+								<input id=form-email type="email" name="email" class="form-control" placeholder="Podaj nam swój email" required="required" data-error="Musimy mieć jak się z Tobą skontaktować.">
+								<div class="help-block with-errors"></div>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="form-group">
+								<label for="form_phone">Telefon</label>
+								<input id="from_phone" type="tel" name="phone" class="form-control" placeholder="Podaj numer, jeśli mamy zadzwonić">
+								<div class="help-block with-errors"></div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="form-group">
+								<label for="message">Wiadomość *</label>						
+								 <textarea id="form_message" name="message" class="form-control" placeholder="Tutaj zadaj pytanie *" rows="4" required="required" data-error="Możesz powtórzyć? Napisz, proszę, swoje pytanie tutaj raz jeszcze."></textarea>
+								<div class="help-block with-errors"></div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<p class="text-muted"><strong>*</strong> Te pola są wymagane, aby się z nami skontaktować</p>
+						</div>
+						<div class="col-md-6 button-send">
+							<input type="submit" class="btn btn-success btn-send pull-right" value="Wyślij wiadomość">
+						</div>
+					</div>			
+					
+					</div>
+				</div>					
+				</form>
+			</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<footer class="container-fluid navbar-fixed-bottom">
+		<div class="container">
+			<div class="row">
+			<p class="col-sm-4"> &copy; 2016 Piotr Rek</p>
+			<ul class="col-sm-8">
+				<li class="col-sm-1">
+					<img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg">
+				</li>
+				<li class="col-sm-1">
+					<img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg">
+				</li>
+				<li class="col-sm-1">
+					<img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg">
+				</li>					
+			</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

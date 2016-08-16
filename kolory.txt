@@ -1,0 +1,3 @@
+kolor zielony: #23ad7f
+czarny: #2b2a29
+czarno-zielony: #002821
